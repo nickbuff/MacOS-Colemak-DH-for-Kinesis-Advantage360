@@ -11,10 +11,10 @@ Fixes a situation where you press SHIFT+\` and expect a `~` sign but get `Z` ins
 1. `~` instead of `Z`
 2. MacOS Ventura compatible icon
 
-## Installation
+## Installation for current user
 
 ```bash
-cp -R Colemak\ DH.bundle  ~/Library/Keyboard\ Layouts
+curl https://github.com/nickbuff/MacOS-Colemak-DH-for-Kinesis-Advantage360/tree/main/Colemak%20DH.bundle --output ~/Library/Keyboard\ Layouts/Colemak\ DH.bundle
 ```
 
 ## Colemak Mod-DH
